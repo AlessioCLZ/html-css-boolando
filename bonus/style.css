@@ -50,10 +50,18 @@ body
     width: 100%;
 }
 
-.img:hover
+/*parte bonus*/
+.img-hover
 {
-    
+    display: none;
 }
+
+.img-complete:hover .img-hover
+{
+    display: block;
+    position: absolute;
+}
+
 
 /*il tag deve stare dentro l'immagine*/
 
