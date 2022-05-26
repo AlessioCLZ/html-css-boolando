@@ -94,17 +94,42 @@ body
     top: 5%;
 }
 
+.heart:hover
+{
+    color: #ff0000;
+    cursor: pointer;
+}
+
 /*formattazione scritte descrizione*/
+
 
 .brand
 {
-    font-size: 10px;
-    font-weight: 100;
+    font-size: 12px;
+    
 }
 
 .name
 {
     font-weight: bold;
+    font-size: 18px;
 }
 
+.last-description-string
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price
+{
+    color: #ff0000;
+    display: inline-block;
+}
+.discounted-price
+{
+    text-decoration:line-through; 
+    display: inline-block;
+   
+}
 
